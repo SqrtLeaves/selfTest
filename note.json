@@ -1,16 +1,19 @@
-[
-  {
-    "question": "alpha(0.25) = ?",
-    "correct": 0.8,
-    "user": "1.23",
-    "time": 3.7,
-    "source": "new"
-  },
-  {
-    "question": "alpha^-1(0.54) = ?",
-    "correct": 0.85,
-    "user": "0.75",
-    "time": 6.5,
-    "source": "new"
-  }
-]
+{
+  "errors": [
+    {
+      "question": "R5(8) = ?",
+      "correct": 1.52,
+      "user": "2.83",
+      "time": 3.3,
+      "type": "error"
+    },
+    {
+      "question": "R3(3) = ?",
+      "correct": 1.44,
+      "user": "1.37",
+      "time": 11.4,
+      "type": "error"
+    }
+  ],
+  "timeouts": []
+}
