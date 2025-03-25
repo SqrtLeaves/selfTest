@@ -1,19 +1,4 @@
 {
-  "errors": [
-    {
-      "question": "R5(8) = ?",
-      "correct": 1.52,
-      "user": "2.83",
-      "time": 3.3,
-      "type": "error"
-    },
-    {
-      "question": "R3(3) = ?",
-      "correct": 1.44,
-      "user": "1.37",
-      "time": 11.4,
-      "type": "error"
-    }
-  ],
+  "errors": [],
   "timeouts": []
 }
