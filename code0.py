@@ -3,6 +3,8 @@ import time
 import json
 from collections import deque
 
+round_level = 4
+
 # 完整表格数据
 tables = {
     # 'alpha': [
@@ -114,7 +116,7 @@ def validate_answer(user_input, correct_answer):
     """增强型验证"""
     try:
         # 数值比较（保留两位小数）
-        return round(float(user_input), 2) == round(float(correct_answer), 2)
+        return round(float(user_input), round_level) == round(float(correct_answer), round_level)
     except:
         # 字符串比较（不区分大小写）
         return str(user_input).strip().lower() == str(correct_answer).strip().lower()
