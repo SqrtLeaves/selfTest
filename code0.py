@@ -212,7 +212,7 @@ def quiz():
             status = "✓" if r["is_correct"] else "✗"
             time_flag = "⌛" if r["time"] > 20 else ""
             print(f"{i:2}. {r['question']} {time_flag}")
-            print(f"    您的答案: {r['user']} | 正确答案: {r['correct']:.2f} {status}")
+            print(f"    您的答案: {r['user']} | 正确答案: {r['correct']:.4f} {status}")
             print(f"    耗时: {r['time']}s")
         
         print(f"\n正确率: {correct_count}/10 ({correct_count*10}%)")
